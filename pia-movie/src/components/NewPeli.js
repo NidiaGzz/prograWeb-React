@@ -26,7 +26,6 @@ const NewPeli=()=>{
                     <TextField fullWidth margin="dense" label="Clasificacion" placeholder='Clasificacion de la pelicula' required/>
                     <TextField fullWidth margin="dense" label="Director" placeholder='Director de la pelicula' required/>
                     <TextField fullWidth margin="dense" label="Idioma Original" placeholder='Idioma original de la pelicula' required/>
-                  
                     <Button type="submit" style={btnStyle} size="large" variant="contained" fullWidth>Guardar</Button>
                 </form>
             </Paper>

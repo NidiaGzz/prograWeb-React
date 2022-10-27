@@ -11,6 +11,7 @@ import { MovieDetails } from './pages/MovieDetails';
 import NewPeli from './components/NewPeli' //DIOS MIO YA LLEVAME POR FAVOR TE LO PIDO NO PUEDO CON TANTO
 
 
+
 function App() {
   return (
     <div>
