@@ -10,7 +10,6 @@ export const Card = () => {
     const [email, setEmail ] = useState('correo');
 
   return (
-
     <header>
         <Navbar />
       <div className='App'>
