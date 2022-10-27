@@ -41,7 +41,7 @@ const Navbar = () => {
 
                         <MenuItem>
                             <MenuItemLink onClick={() => setshowMobileMenu(!showMobileMenu)}>
-                                <Link to="catalogo">
+                                <Link to="/catalogo">
                                 <div>
                                     CATALOGO
                                 </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
                         </MenuItem>
                         <MenuItem>
                             <MenuItemLink onClick={() => setshowMobileMenu(!showMobileMenu)}>
-                            <Link to="Rese" >
+                            <Link to="/Rese" >
                                 <div>                                
                                     RESEÑAS
                                 </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
                         </MenuItem>
                         <MenuItem>
                             <MenuItemLink onClick={() => setshowMobileMenu(!showMobileMenu)}>
-                            <Link to="perfil" >
+                            <Link to="/perfil" >
                                 <div>                                
                                     PERFIL
                                 </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
 
                         <MenuItem>
                             <MenuItemLink onClick={() => setshowMobileMenu(!showMobileMenu)}>
-                                <Link to="login" >
+                                <Link to="/login" >
                                     <div>LOGIN</div>
                                 </Link>
                             </MenuItemLink>
@@ -78,7 +78,7 @@ const Navbar = () => {
 
                         <MenuItem>
                             <MenuItemLink onClick={() => setshowMobileMenu(!showMobileMenu)}>
-                            <Link to="signup" >
+                            <Link to="/signup" >
                                 <div>
                                    
                                     SIGNUP

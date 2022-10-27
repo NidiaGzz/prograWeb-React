@@ -18,14 +18,46 @@
 .Card2 {
     margin-left: 20px;
     width: 500px;
-    height: 100px;
-    background: #bbb;
-    border-radius: 1px;
-    box-shadow: 0px 1px 10px 1px black;
-   
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;   
+    text-align: center;
+}
+
+.Card2 h4{
+    margin-top: 30px;
+}
+.Card2 h2{
+    margin-top: 15px;
+}
+
+.Card2 h1{
+    color: #10196A;
+    font-weight: bold;
+}
+
+
+.contenedor{
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+
+    display: grid;
+    grid-template-columns: 3fr 3fr;
     
 }
 
+.cont-cards{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+   
+
+
+}
 
 
 .upper-container {

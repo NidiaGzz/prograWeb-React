@@ -1,6 +1,7 @@
 import { Button } from '@mui/material';
 import React, { useState } from 'react'
 import './Card.css'
+import Navbar from "../components/Navbar/Navbar";
 
 export const Card = () => {
 
@@ -10,6 +11,8 @@ export const Card = () => {
 
   return (
 
+    <header>
+        <Navbar />
       <div className='App'>
 
           <div className='Card'>
@@ -27,6 +30,7 @@ export const Card = () => {
               </div>
           </div>
       </div>    
+      </header>
   )
 }
 

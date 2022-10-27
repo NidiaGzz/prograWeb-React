@@ -16,12 +16,12 @@ function App() {
       <Fragment>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="login" element={<LoginPage />} />
-          <Route exact path="signup" element={<SignUpPage />} />
-          <Route exact path="catalogo" element={<Catalogo />} />
-          <Route exact path='movie/:movieId' element={<MovieDetails/>}/>
-          <Route exact path="perfil" element={<Card />} />
-          <Route exact path="rese" element={<Rese />} />
+          <Route exact path="/login" element={<LoginPage />} />
+          <Route exact path="/signup" element={<SignUpPage />} />
+          <Route exact path="/catalogo" element={<Catalogo />} />
+          <Route exact path='/movie/:movieId' element={<MovieDetails/>}/>
+          <Route exact path="/perfil" element={<Card />} />
+          <Route exact path="/rese" element={<Rese />} />
         </Routes>
       </Fragment>
     </div>
