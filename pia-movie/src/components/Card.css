@@ -1,0 +1,95 @@
+.App {
+    display: inline-flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.Card {
+    width: 300px;
+    height: 480px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px black;
+    
+}
+.Card2 {
+    margin-left: 20px;
+    width: 500px;
+    height: 100px;
+    background: #bbb;
+    border-radius: 1px;
+    box-shadow: 0px 1px 10px 1px black;
+   
+    
+}
+
+
+
+.upper-container {
+    height: 100px;
+    background: #D80032;
+
+}
+
+.image-container img {
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(105px, 45px);
+}
+
+img {
+    border: 2px solid #10196A;
+}
+
+.lower-container {
+    margin-top: 60px;
+    height: 300px;
+    background: white;
+    text-align: center;
+}
+
+.lower-container h3,h4,p {
+    margin: 0;
+    padding: 0;
+}
+
+.lower-container h3 {
+    color: #10196A;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.lower-container h4 {
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+
+button {
+    margin: 1rem;
+    color: #D80032;
+    font: bold;
+    background-color: white;
+    border: 2px solid #D80032;
+    padding: 0.6rem;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+    animation: ease-in-out;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #10196A;
+    transform: scale(1.2);
+    border: none;
+    color: white;
+
+
+}
