@@ -80,7 +80,6 @@ const Navbar = () => {
                             <MenuItemLink onClick={() => setshowMobileMenu(!showMobileMenu)}>
                             <Link to="/signup" >
                                 <div>
-                                   
                                     SIGNUP
                                 </div>
                             </Link>

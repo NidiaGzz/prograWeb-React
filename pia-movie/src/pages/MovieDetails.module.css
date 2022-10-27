@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-p{
-    color: white;
-    margin-bottom: 1.5rem;
-    font-family: 'Poppins', sans-serif;
-}
-
 .detailsContainer{
     /*padding-top: 30px;*/
     display: flex;
@@ -30,4 +24,7 @@ p{
 
 .firstItem{
     margin-top: 0;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
 }

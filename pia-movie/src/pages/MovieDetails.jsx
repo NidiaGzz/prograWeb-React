@@ -13,11 +13,11 @@ export function MovieDetails() {
                     <p className={styles.firstItem}>
                         <strong>Title:</strong> {movie.title}
                     </p>
-                    <p>
+                    <p className={styles.firstItem}>
                         <strong>Genres:</strong>{" "}
                         {movie.genres.map(genre => genre.name).join(", ")}
                     </p>
-                    <p>
+                    <p className={styles.firstItem}>
                         <strong>Description:</strong> {movie.overview}
                     </p>
                 </div>

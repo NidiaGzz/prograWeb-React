@@ -55,8 +55,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap:20px;
    
-
-
 }
 
 
@@ -101,27 +99,4 @@ img {
     font-weight: 800;
     font-size: 1.2rem;
     padding-top: 20px;
-}
-
-button {
-    margin: 1rem;
-    color: #D80032;
-    font: bold;
-    background-color: white;
-    border: 2px solid #D80032;
-    padding: 0.6rem;
-    border-radius: 6px;
-    transition-duration: 0.5s;
-    animation: ease-in-out;
-
-}
-
-button:hover{
-    cursor: pointer;
-    background-color: #10196A;
-    transform: scale(1.2);
-    border: none;
-    color: white;
-
-
 }

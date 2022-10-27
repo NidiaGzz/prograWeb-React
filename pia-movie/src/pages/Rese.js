@@ -23,8 +23,6 @@ export const Card = () => {
                         <h4>blablablabkla bla bla blabla</h4>
 
                     </div>
-
-
                     <div className='Card2'>
 
                         <h1>PELICULA</h1>
