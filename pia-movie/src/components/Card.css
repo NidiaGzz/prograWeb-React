@@ -101,6 +101,14 @@ img {
     padding-top: 20px;
 }
 
-/*.Carousel-div{
+.Carousel-div{
+    padding: 30px;
+
+    @media (max-width: 560px){
+        .Carousel{
+            width: 90%;
+            height: auto;
+        }
+    }
   
-}*/
+}
