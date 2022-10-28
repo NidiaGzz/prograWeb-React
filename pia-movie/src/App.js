@@ -6,7 +6,7 @@ import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
 import Rese from './pages/Rese';
 import Catalogo from './pages/Catalogo';
-import Card from './components/Card' //DIOS MIO YA LLEVAME POR FAVOR TE LO PIDO NO PUEDO CON TANTO
+import PerfilPage from './pages/PerfilPage';
 import { MovieDetails } from './pages/MovieDetails';
 import NewPeli from './components/NewPeli' //DIOS MIO YA LLEVAME POR FAVOR TE LO PIDO NO PUEDO CON TANTO
 
@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/signup" element={<SignUpPage />} />
           <Route exact path="/catalogo" element={<Catalogo />} />
           <Route exact path='/movie/:movieId' element={<MovieDetails/>}/>
-          <Route exact path="/perfil" element={<Card />} />
+          <Route exact path="/perfil" element={<PerfilPage />} />
           <Route exact path="/rese" element={<Rese />} />
           <Route exact path="/new-peli" element={<NewPeli />} />
           

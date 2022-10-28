@@ -1,17 +1,15 @@
 import { Button } from '@mui/material';
 import React, { useState } from 'react'
 import './Card.css'
-import Navbar from "../components/Navbar/Navbar";
 
 export const Card = () => {
 
-    const [name, setName] = useState('Nombre');
-    const [user, setUser ] = useState('usuario');
-    const [email, setEmail ] = useState('correo');
+    const [name, setName] = useState('Zaid Sasso ');
+    const [user, setUser ] = useState('Zaid123');
+    const [email, setEmail ] = useState('zaid.mmda.pito@mail.com');
 
   return (
     <header>
-        <Navbar />
       <div className='App'>
 
           <div className='Card'>
