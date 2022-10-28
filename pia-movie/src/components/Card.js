@@ -6,7 +6,7 @@ export const Card = () => {
 
     const [name, setName] = useState('Zaid Sasso ');
     const [user, setUser ] = useState('Zaid123');
-    const [email, setEmail ] = useState('zaid.mmda.pito@mail.com');
+    const [email, setEmail ] = useState('zaid.sasso@mail.com');
 
   return (
     <header>
